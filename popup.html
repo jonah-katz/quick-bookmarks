@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <script data-main="js/main" src="js/libs/require.js"></script>
+
+   
+    <style type="text/css">
+            body {
+                width:750px;
+                height: 550px;
+                background-color: #153B5A;                
+            }
+                
+            #bookmarks {
+                height:100%;
+            }
+            
+            .bookmark-list {
+                width: 40%;
+                overflow:scroll;
+                height:100%;
+            }
+
+            .bookmark-list li {
+                width:100%;
+                list-style-type: none;
+                margin-top: 5px;
+                background-color: #0E4E72;
+                padding: 2px;
+                border: 1px solid #355472;
+                padding-left: 10px;
+                color: #D8D8D0;
+                font-family: arial;
+                font-size: 13px; 
+                cursor: pointer;
+            }
+
+            .bookmark-list li:hover {
+                border: 1px solid #3F73A5;
+                background-color: #11608D;
+            }
+            
+            #bookmark-folders-list {
+                float:left;
+            }
+            #bookmarks-list {
+                float: right;
+                margin-right:5%;
+            }
+            
+            .add-to-folder {
+                float:right;
+                text-decoration: underline;
+                margin-right:20px;
+            }
+        </style>
+
+    <body>
+        
+        <div id="bookmarks">
+            <ul class="bookmark-list" id="bookmark-folders-list">
+                
+            </ul>
+            <ul class="bookmark-list" id="bookmarks-list">
+                
+            </ul>
+        </div>
+
+    </body>
+</html>
